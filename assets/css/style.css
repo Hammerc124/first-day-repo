@@ -1,0 +1,21 @@
+.lesson  {
+    background-color: lemonchiffon;
+  }
+  #header-1 {
+    color:darkslateblue
+  }
+  #email {
+    color: black;
+    background-color: rgb(152, 199, 21);
+  }
+  
+  #github {
+    color: black;
+    background-color: darkorange;
+  }
+  
+  #portfolio {
+      color: black;
+      background-color: rgb(12, 199, 190);
+  }
+  
