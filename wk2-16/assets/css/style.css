@@ -34,6 +34,10 @@ body {
     text-decoration: none;
   }
   
+  nav a:hover {
+    color: #fff;
+  }
+  
   main {
     display: flex;
     flex: 1 1 0;
@@ -83,6 +87,18 @@ body {
     color: #fff;
   }
   
+  /* TODO: Add styles that will hide the resource links by default */
+  .resources .links {
+    display: none;
+    padding: 1% 0;
+  }
+  
+  
+  .resources:hover 
+  /* TODO: Add styles that will display the links when the mouse hovers over the parent element */
+  
+  
+  
   @media screen and (max-width: 768px) {
     header, main {
       flex-direction: column;
@@ -97,4 +113,5 @@ body {
       text-align: center;
     }
   }
+  
   
